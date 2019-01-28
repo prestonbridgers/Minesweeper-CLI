@@ -12,12 +12,19 @@ public class Game
 
 	/**
 	 * Constructs the object.
+	 *
+	 * @param      width      The width
+	 * @param      height     The height
+	 * @param      bombCount  The bomb count
 	 */
 	public Game(int width, int height, int bombCount)
 	{
 		map = new Map(width, height, bombCount);
 	}
 
+	/**
+	 * The main game loop.
+	 */
 	public void playGame()
 	{
 		map.print();
@@ -66,6 +73,8 @@ public class Game
 
 	/**
 	 * Checks if a win condition is met and ends the game if so.
+	 *
+	 * @return     True if the win condition has been met; false otherwise.
 	 */
 	public boolean won()
 	{

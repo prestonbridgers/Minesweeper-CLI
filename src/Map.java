@@ -25,7 +25,11 @@ public class Map
 	public static Cursor cursor;
 
 	/**
-	 * Constructs the object.
+	 * Constructs the map object.
+	 *
+	 * @param      height     The height
+	 * @param      width      The width
+	 * @param      bombCount  The bomb count
 	 */
 	public Map(int height, int width, int bombCount)
 	{

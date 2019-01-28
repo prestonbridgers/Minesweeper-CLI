@@ -11,7 +11,7 @@ public class Driver
 	/**
 	 * The main method.
 	 *
-	 * @param      args  The arguments
+	 * @param      args  	Usage: java Driver (width) (height) (bombCount)
 	 */
 	public static void main(String[] args)
 	{
